@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produk - GRIYA BATIK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+
+  <!-- Announcement bar -->
+  <div class="announce">DISKON HINGGA 30% &nbsp;|&nbsp; KONSULTASI UKURAN GRATIS &nbsp;|&nbsp; BUKA 08.00 - 20.00 WIB</div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="menu-btn" id="menu-btn" aria-label="Buka menu">&#9776;</button>
+      <a class="logo" href="index.html">GRIYA BATIK<small>Pesona Batik, Warisan Nusantara</small></a>
+      <a class="header-cta" href="kontak.html">Hubungi Kami</a>
+    </div>
+    <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-head"><h1>Katalog Produk</h1><p>Temukan batik yang sesuai dengan gaya dan kebutuhanmu.</p></section>
+
+    <section class="section">
+      <div class="toolbar">
+        <div class="filters" id="filters">
+          <button class="chip active" data-filter="semua">Semua</button>
+          <button class="chip" data-filter="pria">Pria</button>
+          <button class="chip" data-filter="wanita">Wanita</button>
+          <button class="chip" data-filter="kain">Kain</button>
+        </div>
+        <input type="search" id="cari" placeholder="Cari produk...">
+      </div>
+      <p class="count" id="jumlah"></p>
+      <div class="grid" id="grid">
+        <article class="card" data-kategori="pria" data-nama="kemeja batik pria">
+          <div class="thumb c-maroon" style="--img:url('img/produk1.jpg')">
+            <a class="quick" href="https://wa.me/6285234107310?text=Halo%20Griya%20Batik,%20saya%20ingin%20membeli%20Kemeja%20Batik%20Pria" target="_blank" rel="noopener">Beli Sekarang</a>
+          </div>
+          <div class="card-body">
+            <span class="tag">Pria</span>
+            <h3>Kemeja Batik Pria</h3>
+            <p class="desc">Pilihan busana untuk bekerja, acara resmi, maupun kegiatan keluarga. Tersedia dalam berbagai motif dan warna dengan desain yang rapi dan elegan.</p>
+            <p class="price">Rp350.000</p>
+          </div>
+        </article>
+        <article class="card" data-kategori="wanita" data-nama="blus batik wanita">
+          <div class="thumb c-teal" style="--img:url('img/produk2.jpg')">
+            <a class="quick" href="https://wa.me/6285234107310?text=Halo%20Griya%20Batik,%20saya%20ingin%20membeli%20Blus%20Batik%20Wanita" target="_blank" rel="noopener">Beli Sekarang</a>
+          </div>
+          <div class="card-body">
+            <span class="tag">Wanita</span>
+            <h3>Blus Batik Wanita</h3>
+            <p class="desc">Perpaduan motif tradisional dan desain menarik untuk kegiatan sehari-hari, bekerja, maupun acara formal.</p>
+            <p class="price">Rp450.000</p>
+          </div>
+        </article>
+        <article class="card" data-kategori="wanita" data-nama="dress batik">
+          <div class="thumb c-navy" style="--img:url('img/produk3.jpg')">
+            <a class="quick" href="https://wa.me/6285234107310?text=Halo%20Griya%20Batik,%20saya%20ingin%20membeli%20Dress%20Batik" target="_blank" rel="noopener">Beli Sekarang</a>
+          </div>
+          <div class="card-body">
+            <span class="tag">Wanita</span>
+            <h3>Dress Batik</h3>
+            <p class="desc">Kesan anggun untuk acara keluarga, pesta, pertemuan, maupun kegiatan resmi lainnya.</p>
+            <p class="price">Rp500.000</p>
+          </div>
+        </article>
+        <article class="card" data-kategori="kain" data-nama="kain batik">
+          <div class="thumb c-gold" style="--img:url('img/produk4.jpg')">
+            <a class="quick" href="https://wa.me/6285234107310?text=Halo%20Griya%20Batik,%20saya%20ingin%20membeli%20Kain%20Batik" target="_blank" rel="noopener">Beli Sekarang</a>
+          </div>
+          <div class="card-body">
+            <span class="tag">Kain</span>
+            <h3>Kain Batik</h3>
+            <p class="desc">Bahan untuk membuat berbagai pakaian atau koleksi kain tradisional. Cocok juga sebagai hadiah bernilai budaya.</p>
+            <p class="price">Rp300.000</p>
+          </div>
+        </article>
+      </div>
+      <p class="empty" id="kosong" hidden>Produk tidak ditemukan.</p>
+    </section>
+
+    <section class="section note">
+      <h2>Informasi Produk</h2>
+      <p>Setiap produk memiliki motif, warna, model, dan kegunaan yang berbeda. Sebelum membeli, perhatikan ukuran, jenis bahan, dan keterangan produk agar sesuai kebutuhan.</p>
+      <p>Ketersediaan produk dan ukuran dapat berubah sesuai persediaan toko. Harga pada katalog merupakan contoh harga dan dapat diperbarui.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>GRIYA BATIK</h4>
+        <p>Toko retail batik di Blitar yang menghadirkan kemeja, blus, dress, dan kain batik untuk berbagai kesempatan.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kunjungi Kami</h4>
+        <p>Blitar, Jawa Timur<br>Setiap hari, 08.00 - 20.00 WIB</p>
+      </div>
+      <div>
+        <h4>Hubungi Kami</h4>
+        <p>griyabatikblt@gmail.com<br>+62-852-3410-7310<br>Instagram @griyabatikblt</p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 GRIYA BATIK. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
